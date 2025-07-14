@@ -168,7 +168,7 @@ def save_to_excel(data):
     return output
 
 # Streamlit UI
-st.title("🧾 Convert Multiple Chargeback PDFs to Excel")
+st.title("🧾 Convert Multiple UNFI Chargeback PDFs to Excel")
 uploaded_files = st.file_uploader("Upload one or more PDF files", type=["pdf"], accept_multiple_files=True)
 
 if uploaded_files:
