@@ -11,7 +11,7 @@ st.title("🏦 Parse Bank Statement PDFs → Transactions")
 st.write(
     "Upload one or more bank statement PDFs. The app extracts **Posted Date**, **Amount**, "
     "**Transaction Detail**, and tags each line as **Credit** or **Debit**. "
-    "Anything after **“Daily ledger balance summary”** is excluded."
+
 )
 
 uploaded_files = st.file_uploader("Choose PDF files", type="pdf", accept_multiple_files=True)
